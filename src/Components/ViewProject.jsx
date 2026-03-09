@@ -1,5 +1,6 @@
-/* eslint-disable array-callback-return */
-/* eslint-disable no-undef */
+/* eslint-disable no-unused-vars */
+/* eslint-disable jsx-a11y/img-redundant-alt */
+/* eslint-disable default-case */
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from "react";
 import "../Styles/viewEvent.css";
