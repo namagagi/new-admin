@@ -1,0 +1,55 @@
+.sidebar {
+    width: 20%; 
+    height: 100vh; 
+    position: sticky; 
+    top: 0;
+    overflow-y: auto;
+  }
+
+  .nav-link{
+    width: 90%;
+    height: 5%;
+  }
+  
+  @media (max-width: 768px) {
+    .sidebar {
+      display: none; /* Hide sidebar on mobile */
+
+    }
+  
+    /* Topbar for mobile */
+    .topbar {
+      display: flex;
+      justify-content: center;  /* Centers the icons */
+      align-items: center;
+      gap: 100px;  /* Adds space between icons */
+      background-color: #1995AD;  /* Keep the background as per your preference */
+      padding: 10px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 100;
+    }
+  
+    /* Style for the icons in the topbar */
+    .topbar a {
+      color: white;
+      text-decoration: none;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+  
+    /* Add hover effect for the icons */
+    .topbar a:hover {
+      background-color: lightblue;
+      border-radius: 10px;  /* Adds a slight rounded effect */
+    }
+  
+    /* Space added below the topbar to prevent content overlap */
+    .container-fluid {
+      padding-top: 100px;  /* Adjust padding to ensure content is below the fixed topbar */
+    }
+  }
+  

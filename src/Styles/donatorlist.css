@@ -1,0 +1,46 @@
+
+.donator-list-container {
+    padding: 20px;
+}
+
+.project-button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    margin-right: 10px;
+}
+
+.table-container {
+    margin-top: 20px;
+}
+
+.action-button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.action-button:hover {
+    background-color: #0056b3;
+}
+
+.dialog-box {
+    /* Add your dialog styles */
+}
+
+.certify-modal {
+    /* Add your modal styles */
+}
+
+
+
+
+

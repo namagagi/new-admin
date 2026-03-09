@@ -1,0 +1,144 @@
+/* Base Styles for .App */
+.App {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-right: 0px;
+    margin-top: 76px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    z-index: -1;
+}
+
+body,html{
+    scroll-behavior: smooth;
+    background-color: #F1F1F2;
+}
+
+/* Styles for small screens (mobile devices) */
+@media (max-width: 600px) {
+    .App {
+        padding: 10px;
+        margin-top: 50px;
+    }
+}
+
+/* Styles for medium screens (tablets) */
+@media (min-width: 601px) and (max-width: 900px) {
+    .App {
+        max-width: 80%;
+        padding: 15px;
+        margin-top: 60px;
+    }
+}
+
+/* Styles for large screens (desktops) */
+@media (min-width: 901px) {
+    .App {
+        max-width: 900px;
+        padding: 20px;
+        margin-top: 76px;
+    }
+}
+
+/* Other existing styles */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form {
+    
+    width: 100%;
+}
+
+.input-container {
+    margin-bottom: 40px; /* Adjust spacing between input fields */
+}
+
+.input-container label {
+    display: block; /* Display label on its own line */
+    padding: 12px 0; /* Adjust label padding as needed */
+}
+
+.input-container input {
+    width: calc(100% - 24px); /* Adjust input width accounting for padding */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and border in width calculation */
+    margin-top: 6px; /* Adjust input margin as needed */
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+
+button[type="submit"] {
+    padding: 10px 50px;
+    margin-top: 10px;
+    margin-right: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(11, 171, 16);
+    color: #fff;
+    cursor: pointer;
+}
+
+button[type="reset"]{
+    padding: 10px 50px;
+    margin-top: 10px;
+    margin-right: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(171, 11, 11);
+    color: #fff;
+    cursor: pointer;
+}
+
+button[type="submit1"] {
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(11, 171, 16);
+    color: #fff;
+    cursor: pointer;
+    max-width: 240px;
+}
+
+button[type="reset"]:active{
+    background-color: rgb(45, 6, 6);
+}
+
+
+button[type="submit"]:active {
+    background-color: rgb(6, 45, 7);
+}
+
+/* Responsive styles for header */
+.header {
+    padding: 20px; /* Reduced padding for smaller screens */
+    font-size: 24px; /* Reduced font size for smaller screens */
+}
+
+/* Responsive styles for side navigation */
+
+
+button.loader[disabled]{
+  background-color: #515e54;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+button.loader[disabled]:active{
+    background-color: #515e54;
+}
+
+button[disabled]{
+    cursor: initial;
+}
+
